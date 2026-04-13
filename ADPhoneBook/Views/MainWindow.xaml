@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:vm="clr-namespace:ADPhoneBook.ViewModels"
         xmlns:conv="clr-namespace:ADPhoneBook.Converters"
-        Title="Телефонная книга предприятия"
+        Title="Телефонная книга"
         Height="720" Width="1100"
         MinHeight="540" MinWidth="800"
         Background="{StaticResource LightBgBrush}"
@@ -64,8 +64,6 @@
                     <ColumnDefinition Width="220"/>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
 
                 <!-- Поиск -->
@@ -109,32 +107,14 @@
                           SelectedItem="{Binding SelectedDepartment}"
                           Style="{StaticResource ModernComboBox}"/>
 
-                <!-- Загрузить -->
-                <Button Grid.Column="2" Margin="0,0,8,0"
-                        Style="{StaticResource PrimaryButton}"
-                        Command="{Binding LoadCommand}"
-                        IsEnabled="{Binding IsNotLoading}">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="&#x21BB; " FontSize="14"/>
-                        <TextBlock Text="Загрузить"/>
-                    </StackPanel>
-                </Button>
-
-                <!-- Отмена -->
-                <Button Grid.Column="3" Margin="0,0,8,0"
-                        Style="{StaticResource SecondaryButton}"
-                        Content="&#x2715; Отмена"
-                        Command="{Binding CancelCommand}"
-                        IsEnabled="{Binding IsLoading}"/>
-
                 <!-- Excel -->
-                <Button Grid.Column="4" Margin="0,0,8,0"
+                <Button Grid.Column="2" Margin="0,0,8,0"
                         Style="{StaticResource SecondaryButton}"
                         Content="&#x1F4CA; Excel"
                         Command="{Binding ExportExcelCommand}"/>
 
                 <!-- CSV -->
-                <Button Grid.Column="5"
+                <Button Grid.Column="3"
                         Style="{StaticResource SecondaryButton}"
                         Content="&#x1F4C4; CSV"
                         Command="{Binding ExportCsvCommand}"/>
@@ -263,7 +243,7 @@
                                                         <TextBlock Text="&#x1F4CB;" FontSize="48"
                                                                    HorizontalAlignment="Center"
                                                                    Margin="0,0,0,16"/>
-                                                        <TextBlock Text="Нажмите «Загрузить» для подключения к AD"
+                                                        <TextBlock Text="Загрузка данных..."
                                                                    FontSize="16"
                                                                    Foreground="{StaticResource TextSecondaryBrush}"
                                                                    HorizontalAlignment="Center"/>

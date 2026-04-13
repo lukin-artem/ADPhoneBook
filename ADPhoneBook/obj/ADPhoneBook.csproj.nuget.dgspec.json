@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj": {}
+    "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj": {
+    "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
+        "projectUniqueName": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
         "projectName": "ADPhoneBook",
-        "projectPath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
+        "projectPath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
         "packagesPath": "C:\\Users\\lukin.aa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\obj\\",
+        "outputPath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

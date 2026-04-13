@@ -50,7 +50,7 @@
                          Style="{StaticResource ModernTextBox}"
                          Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                          IsEnabled="{Binding IsNotCurrentUser}"
-                         ToolTip="Пример: COMPANY\\john.doe  или  john.doe@company.local"/>
+                         ToolTip="Пример: COMPANY\\john.doe  или  john.doe@company.local" Height="24"/>
             </StackPanel>
 
             <!-- Пароль -->
@@ -61,7 +61,7 @@
                              BorderBrush="{StaticResource BorderBrush}"
                              BorderThickness="1.5"
                              Padding="10,7"
-                             FontSize="13"/>
+                             FontSize="13" Height="24"/>
             </StackPanel>
 
         </StackPanel>

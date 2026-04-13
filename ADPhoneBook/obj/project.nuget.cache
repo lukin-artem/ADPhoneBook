@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oJY/MKZ4dnE6NGtHN/f95aiNKjhK1J2P/UYI81eskUEYqGZAh2mUX8qme7DpjU6Bsr9nQ8cwgGWJrrrCIWaQlg==",
+  "dgSpecHash": "J0WE2Adel7KR35zCzSVoTb6Y1Gl53Ct5MDN9N3jhMzKxEAIxIv8zFa/h9YczF5b4Cx0Ybi2Jnv2S0NpbTyeSYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
+  "projectFilePath": "C:\\Users\\lukin.aa\\Documents\\PROJECT\\C#\\PhoneAD\\ADPhoneBook\\ADPhoneBook\\ADPhoneBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukin.aa\\.nuget\\packages\\closedxml\\0.102.2\\closedxml.0.102.2.nupkg.sha512",
     "C:\\Users\\lukin.aa\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",

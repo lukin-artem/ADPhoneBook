@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lukin.aa\Source\Repos\ADPhoneBook\ADPhoneBook\obj\Debug\net6.0-windows\
+C:\Users\lukin.aa\Documents\PROJECT\C#\PhoneAD\ADPhoneBook\ADPhoneBook\obj\Debug\net6.0-windows\
 ADPhoneBook
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\lukin.aa\Source\Repos\ADPhoneBook\ADPhoneBook\App.xaml
+C:\Users\lukin.aa\Documents\PROJECT\C#\PhoneAD\ADPhoneBook\ADPhoneBook\App.xaml
 3320426738
 
 12412978600
 204-1260278800
 Resources\Styles.xaml;Views\MainWindow.xaml;Views\SettingsWindow.xaml;
 
-True
+False
 
